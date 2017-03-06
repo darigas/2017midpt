@@ -1,0 +1,6 @@
+C:\Users\da_akhmetova\Desktop\PTMID2017\PTMID2017_Akhmetova_Dariga_1\PTMID2017_Akhmetova_Dariga_1\bin\Debug\PTMID2017_Akhmetova_Dariga_1.exe.config
+C:\Users\da_akhmetova\Desktop\PTMID2017\PTMID2017_Akhmetova_Dariga_1\PTMID2017_Akhmetova_Dariga_1\bin\Debug\PTMID2017_Akhmetova_Dariga_1.exe
+C:\Users\da_akhmetova\Desktop\PTMID2017\PTMID2017_Akhmetova_Dariga_1\PTMID2017_Akhmetova_Dariga_1\bin\Debug\PTMID2017_Akhmetova_Dariga_1.pdb
+C:\Users\da_akhmetova\Desktop\PTMID2017\PTMID2017_Akhmetova_Dariga_1\PTMID2017_Akhmetova_Dariga_1\obj\Debug\PTMID2017_Akhmetova_Dariga_1.csprojResolveAssemblyReference.cache
+C:\Users\da_akhmetova\Desktop\PTMID2017\PTMID2017_Akhmetova_Dariga_1\PTMID2017_Akhmetova_Dariga_1\obj\Debug\PTMID2017_Akhmetova_Dariga_1.exe
+C:\Users\da_akhmetova\Desktop\PTMID2017\PTMID2017_Akhmetova_Dariga_1\PTMID2017_Akhmetova_Dariga_1\obj\Debug\PTMID2017_Akhmetova_Dariga_1.pdb
