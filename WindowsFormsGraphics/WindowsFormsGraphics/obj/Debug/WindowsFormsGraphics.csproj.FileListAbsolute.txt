@@ -1,0 +1,9 @@
+C:\Users\da_akhmetova\Desktop\PTMID2017\WindowsFormsGraphics\WindowsFormsGraphics\bin\Debug\WindowsFormsGraphics.exe.config
+C:\Users\da_akhmetova\Desktop\PTMID2017\WindowsFormsGraphics\WindowsFormsGraphics\bin\Debug\WindowsFormsGraphics.exe
+C:\Users\da_akhmetova\Desktop\PTMID2017\WindowsFormsGraphics\WindowsFormsGraphics\bin\Debug\WindowsFormsGraphics.pdb
+C:\Users\da_akhmetova\Desktop\PTMID2017\WindowsFormsGraphics\WindowsFormsGraphics\obj\Debug\WindowsFormsGraphics.csprojResolveAssemblyReference.cache
+C:\Users\da_akhmetova\Desktop\PTMID2017\WindowsFormsGraphics\WindowsFormsGraphics\obj\Debug\WindowsFormsGraphics.Form1.resources
+C:\Users\da_akhmetova\Desktop\PTMID2017\WindowsFormsGraphics\WindowsFormsGraphics\obj\Debug\WindowsFormsGraphics.Properties.Resources.resources
+C:\Users\da_akhmetova\Desktop\PTMID2017\WindowsFormsGraphics\WindowsFormsGraphics\obj\Debug\WindowsFormsGraphics.csproj.GenerateResource.Cache
+C:\Users\da_akhmetova\Desktop\PTMID2017\WindowsFormsGraphics\WindowsFormsGraphics\obj\Debug\WindowsFormsGraphics.exe
+C:\Users\da_akhmetova\Desktop\PTMID2017\WindowsFormsGraphics\WindowsFormsGraphics\obj\Debug\WindowsFormsGraphics.pdb
