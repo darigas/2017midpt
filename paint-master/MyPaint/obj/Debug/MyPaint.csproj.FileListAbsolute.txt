@@ -52,3 +52,12 @@ C:\Users\User\Desktop\MyPaint\MyPaint\obj\Debug\MyPaint.pdb
 C:\Users\darig\Desktop\paint-master\MyPaint\bin\Debug\MyPaint.exe.config
 C:\Users\darig\Desktop\paint-master\MyPaint\obj\Debug\MyPaint.exe
 C:\Users\darig\Desktop\paint-master\MyPaint\obj\Debug\MyPaint.pdb
+C:\Users\da_akhmetova\Desktop\paint-master\MyPaint\bin\Debug\MyPaint.exe.config
+C:\Users\da_akhmetova\Desktop\paint-master\MyPaint\obj\Debug\MyPaint.exe
+C:\Users\da_akhmetova\Desktop\paint-master\MyPaint\obj\Debug\MyPaint.pdb
+C:\Users\da_akhmetova\Desktop\paint-master\MyPaint\bin\Debug\MyPaint.exe
+C:\Users\da_akhmetova\Desktop\paint-master\MyPaint\bin\Debug\MyPaint.pdb
+C:\Users\da_akhmetova\Desktop\paint-master\MyPaint\obj\Debug\MyPaint.csprojResolveAssemblyReference.cache
+C:\Users\da_akhmetova\Desktop\paint-master\MyPaint\obj\Debug\MyPaint.Form1.resources
+C:\Users\da_akhmetova\Desktop\paint-master\MyPaint\obj\Debug\MyPaint.Properties.Resources.resources
+C:\Users\da_akhmetova\Desktop\paint-master\MyPaint\obj\Debug\MyPaint.csproj.GenerateResource.Cache

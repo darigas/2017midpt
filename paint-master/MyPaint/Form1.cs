@@ -12,7 +12,7 @@ namespace MyPaint
     {
         Shape currentShape = Shape.Free;
         Graphics g;
-        Pen p = new Pen(Color.Black, 2);
+        Pen p = new Pen(Color.Black, 1);
         Point startLocation;
         Point currentLocation;
         Point endLocation;
@@ -62,11 +62,6 @@ namespace MyPaint
         private void pictureBox1_MouseDown(object sender, MouseEventArgs e)
         {
             startLocation = e.Location;
-            if (currentShape==Shape.Pipetka)
-            {
-                p.Color = bmp.GetPixel(e.Location.X, e.Location.Y);
-                button6.BackColor = bmp.GetPixel(e.Location.X, e.Location.Y);
-            }
             if (currentShape == Shape.Fill)
             {
                 Origin = bmp.GetPixel(e.Location.X, e.Location.Y);
@@ -156,22 +151,9 @@ namespace MyPaint
                     gp.Reset();
                     gp.AddEllipse(startLocation.X, startLocation.Y, currentLocation.X - startLocation.X, currentLocation.Y - startLocation.Y);
                     break;
-                case Shape.Spray:
-                    gp.Reset();
-                    int radius = 15; 
-                   for (int i = 0; i < 100; ++i)
-                {
-                    double theta = _rnd.NextDouble() * (Math.PI * 2);
-                    double r = _rnd.NextDouble() * radius;
-
-                    double x = e.X + Math.Cos(theta) * r;
-                    double y = e.Y + Math.Sin(theta) * r;
-
-                    g.DrawEllipse(p, new Rectangle((int)x - 1, (int)y - 1, 1, 1));
-                }
-                break;
             }
             pictureBox1.Refresh();
+            toolStripLabel1.Text = string.Format("X:{0},Y:{1}", e.X, e.Y);
 
         }
 
@@ -186,21 +168,10 @@ namespace MyPaint
             //pictureBox1.Cursor = Cursor.Size;
         }
 
-        private void eraser_click(object sender, EventArgs e)
-        {
-            p.Color = Color.White;
-            p.Width = 10;
-        }
-
         private void rectangle_click(object sender, EventArgs e)
         {
             currentShape = Shape.Rectangle;
 
-        }
-
-        private void button8_Click(object sender, EventArgs e)
-        {
-            currentShape = Shape.Pipetka;
         }
 
         private void button9_Click(object sender, EventArgs e)
@@ -213,49 +184,28 @@ namespace MyPaint
             currentShape = Shape.Ellipse;
         }
 
-        private void newpicture_click(object sender, EventArgs e)
-        {
-            pictureBox1.Refresh();
-            pictureBox1.Image = null;
-        }
-
         private void save_click(object sender, EventArgs e)
         {
-            Bitmap bmp = new Bitmap(pictureBox1.Width, pictureBox1.Height);
-            Graphics g = Graphics.FromImage(bmp);
-            Rectangle r = pictureBox1.RectangleToScreen(pictureBox1.ClientRectangle);
-            g.CopyFromScreen(r.Location, Point.Empty, pictureBox1.Size);
-            g.Dispose();
-            SaveFileDialog s = new SaveFileDialog();
-            s.Filter = "Png files|*.png|jpeg files|*jpg|bitmaps|*.bmp";
-            if (s.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            SaveFileDialog sfd = new SaveFileDialog();
+            if (sfd.ShowDialog() == DialogResult.OK)
             {
-                if (File.Exists(s.FileName))
-                {
-                    File.Delete(s.FileName);
-                }
-                if (s.FileName.Contains(".jpg"))
-                {
-                    bmp.Save(s.FileName, ImageFormat.Jpeg);
-                }
-                else if (s.FileName.Contains(".png"))
-                {
-                    bmp.Save(s.FileName, ImageFormat.Png);
-                }
-                else if (s.FileName.Contains(".bmp"))
-                {
-                    bmp.Save(s.FileName, ImageFormat.Bmp);
-                }
+                //if (System.IO.File.Exists(sfd.FileName))
+                //  System.IO.File.Delete(sfd.FileName);
+
+                pictureBox1.Image.Save(sfd.FileName);
             }
         }
 
         private void open_click(object sender, EventArgs e)
         {
-            OpenFileDialog o = new OpenFileDialog();
-            o.Filter= "Png files|*.png|jpeg files|*jpg|bitmaps|*.bmp";
-            if (o.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            OpenFileDialog ofd = new OpenFileDialog();
+            if (ofd.ShowDialog() == DialogResult.OK)
             {
-                pictureBox1.Image = (Image)Image.FromFile(o.FileName).Clone();
+                Bitmap newimage = new Bitmap(ofd.FileName);
+                Bitmap cloneimage = newimage.Clone() as Bitmap;
+                newimage.Dispose();
+                pictureBox1.Image = cloneimage;
+                g = Graphics.FromImage(pictureBox1.Image);
             }
         }
 
@@ -264,12 +214,13 @@ namespace MyPaint
            
         }
 
-        private void spray_click(object sender, EventArgs e)
-        {
-            currentShape = Shape.Spray;
-        }
         private Random _rnd = new Random();
-        private void Form1_MouseDown(object sender, MouseEventArgs e)
+
+        private void toolStripLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+        /*private void Form1_MouseDown(object sender, MouseEventArgs e)
         {
             int radius = 15;
             using (Graphics g = this.CreateGraphics())
@@ -285,7 +236,7 @@ namespace MyPaint
                     g.DrawEllipse(Pens.Black, new Rectangle((int)x - 1, (int)y - 1, 1, 1));
                 }
             }
-        }
+        }*/
     }
-    enum Shape { Free, Line, Ellipse, Rectangle, Triangle, Pipetka, Fill, Spray };
+    enum Shape { Free, Line, Ellipse, Rectangle, Triangle, Pipetka, Fill };
 }
