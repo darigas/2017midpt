@@ -1,0 +1,7 @@
+C:\Users\Asus\Downloads\Phonebb\PT2017_W14G1-master\PT2017_W14G1_1\bin\Debug\PT2017_W14G1_1.exe.config
+C:\Users\Asus\Downloads\Phonebb\PT2017_W14G1-master\PT2017_W14G1_1\bin\Debug\PT2017_W14G1_1.exe
+C:\Users\Asus\Downloads\Phonebb\PT2017_W14G1-master\PT2017_W14G1_1\bin\Debug\PT2017_W14G1_1.pdb
+C:\Users\Asus\Downloads\Phonebb\PT2017_W14G1-master\PT2017_W14G1_1\bin\Debug\MySql.Data.dll
+C:\Users\Asus\Downloads\Phonebb\PT2017_W14G1-master\PT2017_W14G1_1\obj\Debug\PT2017_W14G1_1.csprojResolveAssemblyReference.cache
+C:\Users\Asus\Downloads\Phonebb\PT2017_W14G1-master\PT2017_W14G1_1\obj\Debug\PT2017_W14G1_1.exe
+C:\Users\Asus\Downloads\Phonebb\PT2017_W14G1-master\PT2017_W14G1_1\obj\Debug\PT2017_W14G1_1.pdb

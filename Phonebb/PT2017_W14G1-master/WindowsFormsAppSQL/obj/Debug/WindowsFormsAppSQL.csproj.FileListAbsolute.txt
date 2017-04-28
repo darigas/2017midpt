@@ -1,0 +1,10 @@
+C:\Users\Asus\Downloads\Phonebb\PT2017_W14G1-master\WindowsFormsAppSQL\bin\Debug\WindowsFormsAppSQL.exe.config
+C:\Users\Asus\Downloads\Phonebb\PT2017_W14G1-master\WindowsFormsAppSQL\bin\Debug\WindowsFormsAppSQL.exe
+C:\Users\Asus\Downloads\Phonebb\PT2017_W14G1-master\WindowsFormsAppSQL\bin\Debug\WindowsFormsAppSQL.pdb
+C:\Users\Asus\Downloads\Phonebb\PT2017_W14G1-master\WindowsFormsAppSQL\bin\Debug\MySql.Data.dll
+C:\Users\Asus\Downloads\Phonebb\PT2017_W14G1-master\WindowsFormsAppSQL\obj\Debug\WindowsFormsAppSQL.csprojResolveAssemblyReference.cache
+C:\Users\Asus\Downloads\Phonebb\PT2017_W14G1-master\WindowsFormsAppSQL\obj\Debug\WindowsFormsAppSQL.Form1.resources
+C:\Users\Asus\Downloads\Phonebb\PT2017_W14G1-master\WindowsFormsAppSQL\obj\Debug\WindowsFormsAppSQL.Properties.Resources.resources
+C:\Users\Asus\Downloads\Phonebb\PT2017_W14G1-master\WindowsFormsAppSQL\obj\Debug\WindowsFormsAppSQL.csproj.GenerateResource.Cache
+C:\Users\Asus\Downloads\Phonebb\PT2017_W14G1-master\WindowsFormsAppSQL\obj\Debug\WindowsFormsAppSQL.exe
+C:\Users\Asus\Downloads\Phonebb\PT2017_W14G1-master\WindowsFormsAppSQL\obj\Debug\WindowsFormsAppSQL.pdb
